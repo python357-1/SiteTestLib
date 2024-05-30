@@ -1,0 +1,8 @@
+# Pipeline
+
+steps:
+- validate urls & selectors (Validator.cs)
+    - filter failed values
+- map urls to return values or error (Requestor.cs)
+- map return values to selected elements or error (Selector.cs)
+- map selected elements to test results or error (Tester.cs)
